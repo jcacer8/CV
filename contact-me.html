@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Jose</title>
+</head>
+
+<body>
+    <h1>Contact details</h1>
+    <hr size="3">
+    <p>
+        <ul>
+            <li><b>Phone number:</b>+57-315-5710933</li>
+            <li><b>Work e-mail:</b>jose.caceresa@perficient.com</li>
+            <li><b>Personal e-mail:</b>jcacer8@gmail.com</li>
+            <li><b>Address:</b>Cra 7D #127C-71 Apto 404 - <i>Bogotá, Colombia</i></li>
+        </ul>       
+    </p>
+    <hr size="3">
+    <h2>Schedule a call</h2>
+    <form action="mailto:jcacer8@gmail.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <th>
+                    <label>Full name</label>
+                </th>
+                <td>
+                    <input type="text" required minlength="3" maxlength="50" name="Full name" id="full-name">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>E-mail</label>
+                </th>
+                <td>
+                    <input type="email" required minlength="4" name="E-mail" id="email">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Phone number</label>
+                </th>
+                <td>
+                    <input type="tel" required minlength="7" maxlength="20" name="Phone number" id="phone-number">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Date - Time</label>
+                </th>
+                <td>
+                    <input type="datetime-local" required name="Date-Time" id="date-time">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Your message</label>
+                </th>
+                <td>
+                    <textarea name="Your message" id="messasge" rows="10" cols="30" required itemid="message"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p>
+        <a href="index.html"><i>Back</i></a>
+    </p>
+</body>
+</html>

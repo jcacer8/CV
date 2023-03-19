@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input examples</title>
+</head>
+<body>
+    <h3>Contact form</h3>
+    <form>
+        <table cellspacing="20">
+            <tr>
+                <th>
+                    <label>Full name</label>
+                </th>
+                <td>
+                    <input type="text" required id="name" minlength="4" maxlength="50" size="12">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>ID number</label>
+                </th>
+                <td>
+                    <input type="text" required id="id" minlength="4" maxlength="10" size="12">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>ID file</label>
+                </th>
+                <td>
+                    <input type="file" required id="id-file" accept="image/png, image/jpeg">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label> Favorite color</label>
+                </th>
+                <td>
+                    <input type="color" required id="color">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Birth date</label>
+                </th>
+                <td>
+                    <input type="date" required id="birth-date">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>E-mail</label>
+                </th>
+                <td>
+                    <input type="email" required minlength="6">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Accept terms
+                </th>
+                <td>
+                    <input type="checkbox" required id="accepted">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Rate your experience</label>
+                </th>
+                <td>
+                    <input type="range" required id="experience" value="5" min="1" max="10" step="1">
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
